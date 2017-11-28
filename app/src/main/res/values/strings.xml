@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SalvaGuarda</string>
+    <string name="riesgo_verde">Riesgo Bajo</string>
+    <string name="riesgo_amarillo">Riesgo Elevado</string>
+    <string name="riesgo_rojo">Comenzar evacuacion</string>
 </resources>
