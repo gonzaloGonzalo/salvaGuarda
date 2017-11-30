@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.json.JSONException;
@@ -24,6 +25,7 @@ public class WelcomeActivity extends AppCompatActivity {
     TextView temperaturaVerde;
     TextView precipitacionAmarilla;
     TextView temperaturaAmarilla;
+    Button botonCentroEvacuacion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +86,8 @@ public class WelcomeActivity extends AppCompatActivity {
                     temperaturaAmarilla.setText(temperatura);
                 }else {
                     setContentView(R.layout.activity_alarma_roja);
+                    botonCentroEvacuacion = findViewById(R.id.boton_centro_evacuacion);
+                    botonCentroEvacuacion
                 }
             }
             catch (JSONException e) {

@@ -3,4 +3,5 @@
     <string name="riesgo_verde">Riesgo Bajo</string>
     <string name="riesgo_amarillo">Riesgo Elevado</string>
     <string name="riesgo_rojo">Comenzar evacuacion</string>
+    <string name="punto_de_evacuacion">Punto de evacuacion</string>
 </resources>

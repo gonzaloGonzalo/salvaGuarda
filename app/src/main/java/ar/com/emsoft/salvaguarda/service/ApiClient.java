@@ -15,6 +15,7 @@ public class ApiClient {
     private static final String TAG = ApiClient.class.getSimpleName();
 
     private static final String IP = "http://192.168.0.38";
+    private static final String IP_LOCAL = "http://10.0.2.2";
     private static final String PORT = "8080";
     private static final String DP = ":";
     private static final String BR = "/";
@@ -23,15 +24,15 @@ public class ApiClient {
     private static final String ALERTAS = "alertas";
     private static final String MENSAJE = "mensaje";
     public String getUltimaAlerta(){
-        return getResponse(IP+DP+PORT+BR+SERVICE+BR+ALERTA);
+        return getResponse(IP_LOCAL+DP+PORT+BR+SERVICE+BR+ALERTA);
     }
 
     public String getTodasAlertas(){
-        return getResponse(IP+DP+PORT+BR+SERVICE+BR+ALERTA);
+        return getResponse(IP_LOCAL+DP+PORT+BR+SERVICE+BR+ALERTA);
     }
 
     public String getUltimoMensaje(){
-        return getResponse(IP+DP+PORT+BR+SERVICE+BR+MENSAJE);
+        return getResponse(IP_LOCAL+DP+PORT+BR+SERVICE+BR+MENSAJE);
     }
 
     private String getResponse(String endpoint) {

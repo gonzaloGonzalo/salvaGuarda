@@ -70,7 +70,8 @@
         android:layout_marginLeft="22dp"
         android:layout_marginStart="22dp"
         android:layout_toEndOf="@+id/temperatura_verde"
-        android:layout_toRightOf="@+id/temperatura_verde"/>
+        android:layout_toRightOf="@+id/temperatura_verde"
+        android:text="mm" />
 
     <TextView
         android:id="@+id/textView5"
