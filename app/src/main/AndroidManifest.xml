@@ -20,15 +20,7 @@
         <activity
             android:name=".WelcomeActivity"
             android:label="@string/app_name" />
-        <activity
-            android:name=".AlarmaVerdeActivity"
-            android:label="@string/app_name" />
-        <activity
-            android:name=".AlarmaAmarillaActivity"
-            android:label="@string/app_name" />
-        <activity
-            android:name=".AlarmaRojaActivity"
-            android:label="@string/app_name" />
+        <service android:name=".tareas.TimeService"/>
     </application>
 
 </manifest>
